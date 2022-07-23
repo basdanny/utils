@@ -1,0 +1,12 @@
+.low-search-add {
+    color: lightgrey !important;
+    padding: 0px;
+    margin: 0px;
+}
+
+.low-search-add a, .low-search-add span, .low-search-add div {
+    color: lightgrey !important;
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+   
+    "name": "low search results adds",
+    "version": "0.1.0",
+    "description": "Make search results ads less prominent",
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://www.google.com/search*"],
+      "run_at": "document_idle"
+    }],
+
+    "icons": { 
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png" 
+    }
+   
+  }
